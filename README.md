@@ -6,7 +6,7 @@ SMColorWheel is a circular colour picker and easy to customize.
 
 ### Features!
 * Head control to rotate around a colour wheel to pick a colour
-* Easy to customize number colours in the wheel
+* Easy to customize number of colours in the wheel
 * Easy to customize head control colour 
 * Easy to customize the head control and colour wheel spacing and size
 
