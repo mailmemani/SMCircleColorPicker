@@ -1,0 +1,367 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		504A4C05234AE4AB0037E51F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 504A4C04234AE4AB0037E51F /* AppDelegate.swift */; };
+		504A4C07234AE4AB0037E51F /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 504A4C06234AE4AB0037E51F /* SceneDelegate.swift */; };
+		504A4C09234AE4AB0037E51F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 504A4C08234AE4AB0037E51F /* ViewController.swift */; };
+		504A4C0C234AE4AB0037E51F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 504A4C0A234AE4AB0037E51F /* Main.storyboard */; };
+		504A4C0E234AE4AC0037E51F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 504A4C0D234AE4AC0037E51F /* Assets.xcassets */; };
+		504A4C11234AE4AC0037E51F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 504A4C0F234AE4AC0037E51F /* LaunchScreen.storyboard */; };
+		504A4C19234AE4D30037E51F /* SMCircleColorPicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 504A4C18234AE4D30037E51F /* SMCircleColorPicker.swift */; };
+		506E0B8F235622FD0069620B /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 506E0B8E235622FC0069620B /* README.md */; };
+		50D4E3D7234B458F00A64C5A /* CGPoint+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50D4E3D6234B458F00A64C5A /* CGPoint+Extension.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		504A4C01234AE4AB0037E51F /* SMCircleColorPicker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SMCircleColorPicker.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		504A4C04234AE4AB0037E51F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		504A4C06234AE4AB0037E51F /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		504A4C08234AE4AB0037E51F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		504A4C0B234AE4AB0037E51F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		504A4C0D234AE4AC0037E51F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		504A4C10234AE4AC0037E51F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		504A4C12234AE4AC0037E51F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		504A4C18234AE4D30037E51F /* SMCircleColorPicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SMCircleColorPicker.swift; sourceTree = "<group>"; };
+		506E0B8E235622FC0069620B /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		50D4E3D6234B458F00A64C5A /* CGPoint+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "CGPoint+Extension.swift"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		504A4BFE234AE4AB0037E51F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		504A4BF8234AE4AB0037E51F = {
+			isa = PBXGroup;
+			children = (
+				506E0B8E235622FC0069620B /* README.md */,
+				504A4C03234AE4AB0037E51F /* SMCircleColorPicker */,
+				504A4C02234AE4AB0037E51F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		504A4C02234AE4AB0037E51F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				504A4C01234AE4AB0037E51F /* SMCircleColorPicker.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		504A4C03234AE4AB0037E51F /* SMCircleColorPicker */ = {
+			isa = PBXGroup;
+			children = (
+				504A4C04234AE4AB0037E51F /* AppDelegate.swift */,
+				504A4C06234AE4AB0037E51F /* SceneDelegate.swift */,
+				504A4C08234AE4AB0037E51F /* ViewController.swift */,
+				506A8660234D7F0C0023FC3A /* SMCircleColorPicker */,
+				504A4C0A234AE4AB0037E51F /* Main.storyboard */,
+				504A4C0D234AE4AC0037E51F /* Assets.xcassets */,
+				504A4C0F234AE4AC0037E51F /* LaunchScreen.storyboard */,
+				504A4C12234AE4AC0037E51F /* Info.plist */,
+			);
+			path = SMCircleColorPicker;
+			sourceTree = "<group>";
+		};
+		506A8660234D7F0C0023FC3A /* SMCircleColorPicker */ = {
+			isa = PBXGroup;
+			children = (
+				504A4C18234AE4D30037E51F /* SMCircleColorPicker.swift */,
+				50D4E3D6234B458F00A64C5A /* CGPoint+Extension.swift */,
+			);
+			path = SMCircleColorPicker;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		504A4C00234AE4AB0037E51F /* SMCircleColorPicker */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 504A4C15234AE4AC0037E51F /* Build configuration list for PBXNativeTarget "SMCircleColorPicker" */;
+			buildPhases = (
+				504A4BFD234AE4AB0037E51F /* Sources */,
+				504A4BFE234AE4AB0037E51F /* Frameworks */,
+				504A4BFF234AE4AB0037E51F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SMCircleColorPicker;
+			productName = RotatingWheel;
+			productReference = 504A4C01234AE4AB0037E51F /* SMCircleColorPicker.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		504A4BF9234AE4AB0037E51F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1100;
+				LastUpgradeCheck = 1100;
+				ORGANIZATIONNAME = Subramanian;
+				TargetAttributes = {
+					504A4C00234AE4AB0037E51F = {
+						CreatedOnToolsVersion = 11.0;
+					};
+				};
+			};
+			buildConfigurationList = 504A4BFC234AE4AB0037E51F /* Build configuration list for PBXProject "SMCircleColorPicker" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 504A4BF8234AE4AB0037E51F;
+			productRefGroup = 504A4C02234AE4AB0037E51F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				504A4C00234AE4AB0037E51F /* SMCircleColorPicker */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		504A4BFF234AE4AB0037E51F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				504A4C11234AE4AC0037E51F /* LaunchScreen.storyboard in Resources */,
+				504A4C0E234AE4AC0037E51F /* Assets.xcassets in Resources */,
+				506E0B8F235622FD0069620B /* README.md in Resources */,
+				504A4C0C234AE4AB0037E51F /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		504A4BFD234AE4AB0037E51F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				504A4C19234AE4D30037E51F /* SMCircleColorPicker.swift in Sources */,
+				504A4C09234AE4AB0037E51F /* ViewController.swift in Sources */,
+				504A4C05234AE4AB0037E51F /* AppDelegate.swift in Sources */,
+				50D4E3D7234B458F00A64C5A /* CGPoint+Extension.swift in Sources */,
+				504A4C07234AE4AB0037E51F /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		504A4C0A234AE4AB0037E51F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				504A4C0B234AE4AB0037E51F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		504A4C0F234AE4AC0037E51F /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				504A4C10234AE4AC0037E51F /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		504A4C13234AE4AC0037E51F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		504A4C14234AE4AC0037E51F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		504A4C16234AE4AC0037E51F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = 3K2WWL8VZ2;
+				INFOPLIST_FILE = SMCircleColorPicker/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.vyke.vtl;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = Vyke_Development;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		504A4C17234AE4AC0037E51F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = 3K2WWL8VZ2;
+				INFOPLIST_FILE = SMCircleColorPicker/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.vyke.vtl;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = Vyke_Development;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		504A4BFC234AE4AB0037E51F /* Build configuration list for PBXProject "SMCircleColorPicker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				504A4C13234AE4AC0037E51F /* Debug */,
+				504A4C14234AE4AC0037E51F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		504A4C15234AE4AC0037E51F /* Build configuration list for PBXNativeTarget "SMCircleColorPicker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				504A4C16234AE4AC0037E51F /* Debug */,
+				504A4C17234AE4AC0037E51F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 504A4BF9234AE4AB0037E51F /* Project object */;
+}
