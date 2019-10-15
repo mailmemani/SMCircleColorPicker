@@ -14,10 +14,10 @@ SMColorWheel is a circular colour picker and easy to customize.
 * Swift 5
 * Xcode 11
 
-#### Usage
+### Usage
 ![](https://raw.githubusercontent.com/mailmemani/SMCircleColorPicker/screeshots/gifs/demo.gif)
 
-#### Interface Builder
+### Interface Builder
 Layout, and color can be changed through the Interface Builder.
 
 ![](https://raw.githubusercontent.com/mailmemani/SMCircleColorPicker/screeshots/gifs/xib.gif)
