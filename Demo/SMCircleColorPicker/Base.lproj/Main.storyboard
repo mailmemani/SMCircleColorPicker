@@ -16,15 +16,15 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="63O-IK-pLV" customClass="SMCircleColorPicker" customModule="SMCircleColorPicker" customModuleProvider="target">
-                                <rect key="frame" x="82" y="328" width="250" height="250"/>
+                                <rect key="frame" x="32" y="253" width="350" height="400"/>
                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <constraints>
-                                    <constraint firstAttribute="width" constant="250" id="Tfr-cA-Gj8"/>
-                                    <constraint firstAttribute="height" constant="250" id="kNv-Eg-q5t"/>
+                                    <constraint firstAttribute="width" constant="350" id="Tfr-cA-Gj8"/>
+                                    <constraint firstAttribute="height" constant="400" id="kNv-Eg-q5t"/>
                                 </constraints>
                                 <userDefinedRuntimeAttributes>
                                     <userDefinedRuntimeAttribute type="color" keyPath="arcColor">
-                                        <color key="value" systemColor="systemRedColor" red="1" green="0.23137254900000001" blue="0.18823529410000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <color key="value" systemColor="systemPinkColor" red="1" green="0.1764705882" blue="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                     </userDefinedRuntimeAttribute>
                                 </userDefinedRuntimeAttributes>
                             </view>
@@ -42,7 +42,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="194" y="141"/>
+            <point key="canvasLocation" x="378" y="106"/>
         </scene>
     </scenes>
 </document>
