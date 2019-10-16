@@ -2,7 +2,7 @@
 
 [![Build Status](https://travis-ci.org/joemccann/dillinger.svg?branch=master)](https://travis-ci.org/joemccann/dillinger)
 
-SMColorWheel is a circular colour picker and easy to customize.
+SMCircleColorPicker is a circular colour picker and easy to customize.
 
 ### Features!
 * Head control to rotate around a colour wheel to pick a colour
