@@ -1,5 +1,7 @@
 # SMCircleColorPicker
 
+[![Build Status](https://travis-ci.org/mailmemani/SMCircleColorPicker.svg?branch=master)](https://travis-ci.org/mailmemani/SMCircleColorPicker)
+
 SMCircleColorPicker is a circular colour picker and easy to customize.
 
 ### Features!
