@@ -26,6 +26,5 @@ class ViewController: UIViewController, SMCircleColorPickerDelegate {
     func colorChanged(color: UIColor) {
         self.view.backgroundColor = color
     }
-
 }
 

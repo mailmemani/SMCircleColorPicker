@@ -14,7 +14,7 @@ import CoreGraphics
 /**
   SMColorWheelDelegate will inform about the color changes based on the color wheen arc control head position
  */
-protocol SMCircleColorPickerDelegate: class {
+public protocol SMCircleColorPickerDelegate: class {
     
     /**
      
@@ -31,7 +31,7 @@ protocol SMCircleColorPickerDelegate: class {
 // SM Color Wheel
 /******************************************************************/
 @IBDesignable
-class SMCircleColorPicker : UIControl {
+public class SMCircleColorPicker : UIControl {
     
     // Configurable
     @IBInspectable
@@ -106,7 +106,7 @@ class SMCircleColorPicker : UIControl {
         super.init(coder: coder)
     }
     
-    override func draw(_ rect: CGRect) {
+    override public func draw(_ rect: CGRect) {
         
         // Draw color wheel
         addColorWheel()

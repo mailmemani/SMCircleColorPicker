@@ -13,9 +13,9 @@
 		504A4C0C234AE4AB0037E51F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 504A4C0A234AE4AB0037E51F /* Main.storyboard */; };
 		504A4C0E234AE4AC0037E51F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 504A4C0D234AE4AC0037E51F /* Assets.xcassets */; };
 		504A4C11234AE4AC0037E51F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 504A4C0F234AE4AC0037E51F /* LaunchScreen.storyboard */; };
-		504A4C19234AE4D30037E51F /* SMCircleColorPicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 504A4C18234AE4D30037E51F /* SMCircleColorPicker.swift */; };
 		506E0B8F235622FD0069620B /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 506E0B8E235622FC0069620B /* README.md */; };
-		50D4E3D7234B458F00A64C5A /* CGPoint+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50D4E3D6234B458F00A64C5A /* CGPoint+Extension.swift */; };
+		507491532356E4B500C2D6A5 /* CGPoint+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 507491512356E4B500C2D6A5 /* CGPoint+Extension.swift */; };
+		507491542356E4B500C2D6A5 /* SMCircleColorPicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 507491522356E4B500C2D6A5 /* SMCircleColorPicker.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -27,9 +27,9 @@
 		504A4C0D234AE4AC0037E51F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		504A4C10234AE4AC0037E51F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		504A4C12234AE4AC0037E51F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		504A4C18234AE4D30037E51F /* SMCircleColorPicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SMCircleColorPicker.swift; sourceTree = "<group>"; };
 		506E0B8E235622FC0069620B /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
-		50D4E3D6234B458F00A64C5A /* CGPoint+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "CGPoint+Extension.swift"; sourceTree = "<group>"; };
+		507491512356E4B500C2D6A5 /* CGPoint+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "CGPoint+Extension.swift"; path = "../../../SMCircleColorPicker/CGPoint+Extension.swift"; sourceTree = "<group>"; };
+		507491522356E4B500C2D6A5 /* SMCircleColorPicker.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SMCircleColorPicker.swift; path = ../../../SMCircleColorPicker/SMCircleColorPicker.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,8 +78,8 @@
 		506A8660234D7F0C0023FC3A /* SMCircleColorPicker */ = {
 			isa = PBXGroup;
 			children = (
-				504A4C18234AE4D30037E51F /* SMCircleColorPicker.swift */,
-				50D4E3D6234B458F00A64C5A /* CGPoint+Extension.swift */,
+				507491512356E4B500C2D6A5 /* CGPoint+Extension.swift */,
+				507491522356E4B500C2D6A5 /* SMCircleColorPicker.swift */,
 			);
 			path = SMCircleColorPicker;
 			sourceTree = "<group>";
@@ -156,10 +156,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				504A4C19234AE4D30037E51F /* SMCircleColorPicker.swift in Sources */,
 				504A4C09234AE4AB0037E51F /* ViewController.swift in Sources */,
+				507491532356E4B500C2D6A5 /* CGPoint+Extension.swift in Sources */,
+				507491542356E4B500C2D6A5 /* SMCircleColorPicker.swift in Sources */,
 				504A4C05234AE4AB0037E51F /* AppDelegate.swift in Sources */,
-				50D4E3D7234B458F00A64C5A /* CGPoint+Extension.swift in Sources */,
 				504A4C07234AE4AB0037E51F /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
