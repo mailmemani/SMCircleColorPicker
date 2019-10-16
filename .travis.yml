@@ -9,3 +9,6 @@ env:
 xcode_project: Demo/SMCircleColorPicker.xcodeproj
 xcode_scheme: SMCircleColorPicker
 xcode_destination: platform=iOS Simulator,OS=13.0,name=iPhone X
+
+script:
+  - set -o pipefail && xcodebuild test -enableCodeCoverage YES -project Demo/SMCircleColorPicker.xcodeproj -scheme SMCircleColorPicker -destination platform\=iOS\ Simulator,OS\=13.0,name\=iPhone\ Xs build test | xcpretty
