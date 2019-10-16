@@ -149,6 +149,10 @@ class SMCircleColorPicker : UIControl {
      */
     private func setupColorWheelThumb(rect : CGRect) {
         
+        if arcControl != nil {
+            arcControl.removeFromSuperview()
+        }
+        
         // Increase size of the outer view by the border width (Arc color wheel control)
         var wheelRect = self.frame
         wheelRect.size.width = wheelRect.size.width + arcControlSpacing
