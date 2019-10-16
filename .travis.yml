@@ -3,9 +3,9 @@ language: swift
 osx_image: xcode11
 env:
   matrix:
-    - TEST_SDK=iphonesimulator13 OS=13 NAME='iPhone XR'
+    - TEST_SDK=iphonesimulator13.0 OS=13.0 NAME='iPhone XR'
     - TEST_SDK=iphonesimulator12.1 OS=12.1 NAME='iPhone 7'
 
-xcode_project: SMCircleColorPicker.xcodeproj
+xcode_project: Demo/SMCircleColorPicker.xcodeproj
 xcode_scheme: SMCircleColorPicker
-xcode_destination: platform=iOS Simulator,OS=13,name=iPhone X
+xcode_destination: platform=iOS Simulator,OS=13.0,name=iPhone X
