@@ -1,14 +1,10 @@
 language: swift
 
 osx_image: xcode11
-env:
-  matrix:
-    - TEST_SDK=iphonesimulator13.0 OS=13.0 NAME='iPhone XR'
-    - TEST_SDK=iphonesimulator12.1 OS=12.1 NAME='iPhone 7'
 
 xcode_project: Demo/SMCircleColorPicker.xcodeproj
 xcode_scheme: SMCircleColorPicker
 xcode_destination: platform=iOS Simulator,OS=13.0,name=iPhone X
 
 script:
-  - set -o pipefail && xcodebuild test -enableCodeCoverage YES -project Demo/SMCircleColorPicker.xcodeproj -scheme SMCircleColorPicker -destination platform\=iOS\ Simulator,OS\=13.0,name\=iPhone\ Xs build test | xcpretty
+  - set -o pipefail && xcodebuild test -enableCodeCoverage YES -project Demo/SMCircleColorPicker.xcodeproj -scheme SMCircleColorPicker -destination platform\=iOS\ Simulator,OS\=13.0,name\=iPhone\ 8 build test | xcpretty
