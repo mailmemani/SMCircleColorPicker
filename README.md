@@ -1,6 +1,6 @@
 # SMCircleColorPicker
 
-[![Build Status](https://travis-ci.org/mailmemani/SMCircleColorPicker.svg?branch=master)](https://travis-ci.org/mailmemani/SMCircleColorPicker)
+[![Build Status](https://travis-ci.org/mailmemani/SMCircleColorPicker.svg?branch=master)](https://travis-ci.org/mailmemani/SMCircleColorPicker)  [![Pod Status](https://img.shields.io/cocoapods/v/SMCircleColorPicker.svg?style=flat)](http://cocoapods.org/pods/SMCircleColorPicker) [![License](https://img.shields.io/cocoapods/l/SMCircleColorPicker.svg?style=flat)](https://github.com/mailmemani/SMCircleColorPicker/blob/master/LICENSE) [![License](https://img.shields.io/cocoapods/p/SMCircleColorPicker.svg?style=flat)](http://cocoapods.org/pods/SMCircleColorPicker)
 
 SMCircleColorPicker is a circular colour picker and easy to customize.
 
